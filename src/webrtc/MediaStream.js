@@ -125,14 +125,7 @@ export default class MediaStream extends EventTarget(MEDIA_STREAM_EVENTS) {
     return this._reactTag;
   }
 
-  release(releaseTracks = true) {
-    for (const track of this._tracks) {
-      this.removeTrack(track);
-      if (releaseTracks) {
-        track.release();
-      }
-    }
-
+  release() {
     WebRTCModule.mediaStreamRelease(this._reactTag);
   }
 }
