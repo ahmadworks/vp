@@ -20,7 +20,7 @@ import {ClientState, CameraType, RenderScaleType, LogLevel, CallError, VideoCode
 import * as Hardware from './hardware';
 import * as Messaging from './messaging';
 
-import * as webrtc from './react-native-webrtc';
+import * as webrtc from './webrtc';
 
 /**
  * Get Voximplant.Client instance to use platform functions
