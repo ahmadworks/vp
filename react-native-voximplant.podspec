@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
     s.requires_arc        = true
     s.preserve_paths      = 'ios/**/*'
-    s.source_files = 'ios/*', 'ios/**/*.{h,m}'
+    s.source_files = 'ios/*'
     s.platform     = :ios, '9.0'
     s.license      = 'MIT'
     s.homepage     = 'https://github.com/voximplant/react-native-voximplant'
