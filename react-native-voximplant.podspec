@@ -10,4 +10,5 @@ Pod::Spec.new do |s|
     s.version      = '1.24.0'
     s.dependency   'VoxImplantSDK', '2.36.0'
     s.dependency   'React'
+    s.dependency   'React-Core'
 end
