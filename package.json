@@ -19,6 +19,7 @@
     "node": ">=4"
   },
   "scripts": {
+    "postinstall": "cross-os darwin-extract",
     "doc-as-json": "jsdoc -X ./index.js"
   },
   "author": "Zingaya Inc. <info@voximplant.com> (http://voximplant.com)",
