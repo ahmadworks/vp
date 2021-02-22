@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.framework           = 'AudioToolbox','AVFoundation', 'CoreAudio', 'CoreGraphics', 'CoreVideo', 'GLKit', 'VideoToolbox'
     s.dependency   'VoxImplantSDK', '2.36.0'
     s.dependency   'React'
-    s.dependency   'React-Core'
+    # s.dependency   'React-Core'
 end
